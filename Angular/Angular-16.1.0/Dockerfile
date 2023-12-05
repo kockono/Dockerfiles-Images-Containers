@@ -5,4 +5,7 @@ RUN npm install -g @angular/cli@16.1.0
 
 COPY ./package.json .
 RUN npm install
+
 COPY . .
+
+EXPOSE 4200

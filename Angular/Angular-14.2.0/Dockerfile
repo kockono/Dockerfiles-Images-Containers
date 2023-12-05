@@ -5,3 +5,4 @@ COPY package.json package-lock.json ./
 RUN npm install -g @angular/cli@14.2.0
 RUN npm install
 COPY . .
+EXPOSE 4200
