@@ -6,6 +6,8 @@ RUN npm install -g @angular/cli@14.2.0
 RUN npm install
 COPY . .
 RUN ng build
+EXPOSE 80
+
 
 ### STAGE 2: Run ###
 FROM nginx:1.17.1-alpine
