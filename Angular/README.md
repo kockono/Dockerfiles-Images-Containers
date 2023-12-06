@@ -3,7 +3,11 @@
 docker run –d --restart=always --name angular-frontend –p 4200:4200 spartan
 ```
 
+
+
 ## Angular Compatibility Versions for NodeJs, Typescript, Rxjs
+
+###### https://angular.io/guide/versions
 
 | Angular                | NodeJs                                   | Typescript     | Rxjs                 |
 | ---------------------- | ---------------------------------------- | -------------- | -------------------- |
