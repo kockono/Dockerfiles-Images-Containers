@@ -1,6 +1,6 @@
 ## Angular create container
 ```bash
-docker run –d –p 4200:4200 angular-frontend --restart=always
+docker run –d --restart=always --name angular-frontend –p 4200:4200 spartan
 ```
 
 ## Angular Compatibility Versions for NodeJs, Typescript, Rxjs

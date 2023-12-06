@@ -1,0 +1,29 @@
+# See http:/help.github.com/ignore-files/ for more about ignoring files.
+
+# IDE
+.vs/*
+.vscode/*
+/.vs/*
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+Api/bin/*
+Api/obj/*
+Application/bin/*
+Application/obj/*
+Domain/bin/*
+Domain/obj/*
+Infrastructure/bin/*
+Infrastructure/obj/*
+.gitignore
+
+# NodeJs
+/node_modules/

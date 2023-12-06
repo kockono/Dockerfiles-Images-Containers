@@ -8,3 +8,13 @@ Dockerfile
 .dockerignore
 /node_modules/
 /dist
+
+# IDE
+.vs/*
+.vscode/*
+/.vs/*
+/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
