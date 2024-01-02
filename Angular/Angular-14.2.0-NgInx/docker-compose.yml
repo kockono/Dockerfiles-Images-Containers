@@ -5,9 +5,6 @@ services:
     build:
       context: . # Aquí iría la ruta de la carpeta donde está el Dockerfile
       dockerfile: Dockerfile # Aquí iría el nombre del Dockerfile
-    working_dir: /app
-    # command: sleep infinity
+    working_dir: /usr/local/app # Directorio de trabajo dentro del contenedor
     ports:
-      - "4200:4200"
-    command:
-      sh -c "cd /usr/src/app && ng serve --host 0.0.0.0 --disable-host-check"
+      - "80:80"
