@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  azuresqledge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "1433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "MY_STRONG_Password10!"
