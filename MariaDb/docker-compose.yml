@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  world-db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3306:3306"
+    environment:
+      MARIADB_USER: mariadb_user
+      MARIADB_PASSWORD: mariadb_user
+      MARIADB_ROOT_PASSWORD: root-mariadb-user
+      MARIADB_DATABASE: world-db
+    volumes:
+      - world-db:/var/lib/mysql
+
+volumes:
+  world-db:
